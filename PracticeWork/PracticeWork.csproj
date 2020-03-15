@@ -180,6 +180,12 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataRepository\DataRepository.csproj">
+      <Project>{0e92e6d4-8bdd-4b05-b5e1-959b8aadc7c1}</Project>
+      <Name>DataRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
